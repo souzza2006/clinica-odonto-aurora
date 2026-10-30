@@ -4,98 +4,127 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#EAF5F3">
-  <meta name="description" content="Projeto de portfólio fictício de clínica odontológica. Não representa um estabelecimento ou serviço real.">
-  <title>Clínica Odonto Aurora | Projeto demonstrativo</title>
+  <meta name="description" content="Conheça os tratamentos odontológicos da Clínica Odonto Aurora e descubra uma experiência de cuidado acolhedora.">
+  <title>Clínica Odonto Aurora | Dentista</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="demo-notice"><strong>Projeto fictício:</strong> clínica, profissionais e contatos são apenas ilustrativos.</div>
-<button class="menu-btn" id="openMenu" aria-label="Abrir menu" aria-expanded="false">
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-</button>
-<div class="scrim" id="scrim"></div>
-<aside class="drawer" id="drawer" aria-label="Menu lateral">
-  <div class="drawer-top">
-    <strong>Odonto Aurora</strong>
-    <button class="close-btn" id="closeMenu" aria-label="Fechar menu">
-      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
-    </button>
-  </div>
-  <nav class="nav" aria-label="Navegação principal">
-    <a href="#inicio">Início</a>
-    <a href="#servicos">Tratamentos</a>
-    <a href="#sobre">Sobre o projeto</a>
-    <a href="#contato">Informações</a>
-  </nav>
-  <a class="btn" href="#contato">Sobre esta demonstração</a>
-</aside>
+  <button class="menu-btn" id="openMenu" aria-label="Abrir menu" aria-expanded="false" aria-controls="drawer">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+      <path d="M4 7h16M4 12h16M4 17h16"/>
+    </svg>
+  </button>
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" aria-label="Menu lateral">
+    <div class="drawer-top">
+      <strong>Odonto Aurora</strong>
+      <button class="close-btn" id="closeMenu" aria-label="Fechar menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18"/>
+        </svg>
+      </button>
+    </div>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Tratamentos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn" href="#contato">Entre em contato</a>
+  </aside>
 
-<header id="inicio" class="hero">
-  <div class="sec">
-    <div class="hero-text">
-      <span class="pill up">Odontologia com cuidado</span>
-      <h1 class="up d1">Um sorriso saudável começa com confiança</h1>
-      <p class="up d2">Uma proposta de clínica com atendimento acolhedor, atenção a cada detalhe e cuidado pensado para o seu sorriso.</p>
-      <div class="actions up d3">
-        <a class="btn" href="#sobre">Conheça o projeto</a>
-        <a class="btn alt" href="#servicos">Ver tratamentos</a>
-      </div>
-    </div>
-    <div class="hero-media">
-      <div class="hero-photo">
-        <div class="photo">
-          <img src="img/Dentista%20Sorrindo%20com%20Espelho%20Dental.png" alt="Imagem ilustrativa de profissional de odontologia">
-        </div>
-        <div class="badge"><span class="dot"></span>Projeto demonstrativo</div>
-      </div>
-    </div>
-  </div>
-</header>
-
-<main>
-  <section id="servicos" class="sec">
-    <div class="intro">
-      <h2>Tratamentos para cada fase do seu sorriso</h2>
-      <p>Exemplos de serviços para apresentar o conceito visual. Esta página não oferece atendimento odontológico.</p>
-    </div>
-    <div class="grid">
-      <article class="card"><div class="icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg></div><h3>Limpeza e prevenção</h3><p>O cuidado preventivo como parte essencial da saúde bucal.</p></article>
-      <article class="card"><div class="icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8a4 4 0 100 8 4 4 0 000-8zM12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg></div><h3>Clareamento</h3><p>Exemplo de cuidado estético com acompanhamento profissional.</p></article>
-      <article class="card"><div class="icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/></svg></div><h3>Implantes</h3><p>Uma possibilidade de reabilitação apresentada neste conceito.</p></article>
-      <article class="card"><div class="icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 14c1 2 2.5 3 4 3s3-1 4-3M9 9.5v.5M15 9.5v.5"/></svg></div><h3>Ortodontia</h3><p>Exemplo de cuidado para diferentes necessidades do sorriso.</p></article>
-    </div>
-  </section>
-
-  <section id="sobre" class="about">
+  <header id="inicio" class="hero">
     <div class="sec">
-      <div class="photo">
-        <img src="img/128879-dentista-entenda-a-importancia-da-humanizacao-no-atendimento-768x513.jpg" alt="Imagem ilustrativa relacionada a atendimento odontológico">
+      <div class="hero-text">
+        <span class="pill up">Odontologia com cuidado</span>
+        <h1 class="up d1">Um sorriso saudável começa com confiança</h1>
+        <p class="up d2">Tratamentos modernos, atendimento acolhedor e atenção a cada detalhe. Conheça a Clínica Odonto Aurora.</p>
+        <div class="actions up d3">
+          <a class="btn" href="#contato">Agende uma avaliação</a>
+          <a class="btn alt" href="#servicos">Ver tratamentos</a>
+        </div>
       </div>
-      <div class="about-text">
-        <h2>Cuidado de verdade, da primeira consulta ao sorriso final</h2>
-        <p>A Clínica Odonto Aurora e sua equipe são fictícias, criadas exclusivamente para este projeto de portfólio. Os nomes, registros profissionais e demais informações não correspondem a pessoas ou serviços reais.</p>
-        <div class="checks">
-          <div>✓ Identidade visual criada para demonstração</div>
-          <div>✓ Conteúdo e serviços apenas ilustrativos</div>
-          <div>✓ Esta página não realiza agendamentos</div>
+      <div class="hero-media">
+        <div class="hero-photo">
+          <div class="photo">
+            <img src="img/Dentista%20Sorrindo%20com%20Espelho%20Dental.png" alt="Profissional de odontologia em um consultório">
+          </div>
+          <div class="badge"><span class="dot"></span>Atendimento acolhedor</div>
         </div>
       </div>
     </div>
-  </section>
+  </header>
 
-  <section id="contato" class="contact">
-    <div class="sec">
+  <main>
+    <section id="servicos" class="sec">
       <div class="intro">
-        <h2>Sobre este projeto</h2>
-        <p class="contact-copy">Este site é apenas uma demonstração de portfólio. A clínica não existe e não realiza atendimentos. Não envie informações pessoais.</p>
+        <h2>Tratamentos para cada fase do seu sorriso</h2>
+        <p>Do cuidado preventivo à reabilitação, com atenção às suas necessidades e explicação clara de cada etapa.</p>
       </div>
-      <span class="demo-label">Todos os dados são fictícios</span>
-    </div>
-  </section>
-</main>
+      <div class="grid">
+        <article class="card">
+          <div class="icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg>
+          </div>
+          <h3>Limpeza e prevenção</h3>
+          <p>Cuidados preventivos para ajudar a manter dentes e gengivas saudáveis.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8a4 4 0 100 8 4 4 0 000-8zM12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M5 19l1.5-1.5M17.5 6.5L19 5"/></svg>
+          </div>
+          <h3>Clareamento</h3>
+          <p>Opções de clareamento dental com acompanhamento profissional.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/></svg>
+          </div>
+          <h3>Implantes</h3>
+          <p>Alternativas para reposição de dentes e reabilitação do sorriso.</p>
+        </article>
+        <article class="card">
+          <div class="icon" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 14c1 2 2.5 3 4 3s3-1 4-3M9 9.5v.5M15 9.5v.5"/></svg>
+          </div>
+          <h3>Ortodontia</h3>
+          <p>Aparelhos e alinhadores para cuidar do alinhamento dos dentes.</p>
+        </article>
+      </div>
+    </section>
 
-<footer>Projeto fictício de portfólio · Clínica Odonto Aurora · Nenhum atendimento é realizado</footer>
-<script src="script.js" defer></script>
+    <section id="sobre" class="about">
+      <div class="sec">
+        <div class="photo">
+          <img src="img/128879-dentista-entenda-a-importancia-da-humanizacao-no-atendimento-768x513.jpg" alt="Atendimento odontológico em ambiente acolhedor">
+        </div>
+        <div class="about-text">
+          <h2>Cuidado de verdade, da primeira consulta ao sorriso final</h2>
+          <p>Uma experiência atenciosa, com cada etapa explicada com clareza e respeito ao seu tempo.</p>
+          <div class="checks">
+            <div>✓ Atendimento humanizado e atencioso</div>
+            <div>✓ Plano de tratamento explicado com clareza</div>
+            <div>✓ Ambiente confortável e acolhedor</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contact">
+      <div class="sec">
+        <div class="intro">
+          <h2>Agende sua avaliação</h2>
+          <p class="contact-copy">Entre em contato com a equipe para tirar dúvidas e consultar a disponibilidade de horários.</p>
+        </div>
+        <a class="btn alt" href="#inicio">Voltar ao início</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>Clínica Odonto Aurora · Cuidado e atenção com o seu sorriso</footer>
+  <script src="script.js" defer></script>
 </body>
 </html>

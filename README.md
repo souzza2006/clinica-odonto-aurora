@@ -1,26 +1,24 @@
-# Odonto Aurora — projeto demonstrativo
+# Clínica Odonto Aurora
 
-Site de uma clínica odontológica conceitual, criado como projeto de portfólio para demonstrar uma página institucional responsiva.
+Site responsivo para portfólio, desenvolvido com HTML, CSS e JavaScript.
 
-> **Aviso:** este projeto é inteiramente fictício. A clínica, a marca, as pessoas, os serviços e os dados de contato são apenas exemplos. Não existe atendimento, agendamento ou orientação odontológica por meio deste site.
+> **Aviso:** este projeto é fictício e foi criado para fins de demonstração. A clínica, a marca, os serviços, as pessoas e as informações apresentados não correspondem a um estabelecimento real. O site não oferece atendimento odontológico.
 
-## Visualizar localmente
+## Abrir o site
 
-Não é necessário instalar dependências. Abra `index.html` em um navegador ou use a extensão Live Server no VS Code.
+[Acessar a Clínica Odonto Aurora](https://souzza2006.github.io/clinica-odonto-aurora/)
 
-## Tecnologias
+Para executar localmente, abra `index.html` no navegador ou use a extensão Live Server no VS Code.
 
-- HTML
-- CSS
-- JavaScript
+## Arquivos do projeto
 
-## Estrutura
+- `index.html` — estrutura e conteúdo da página.
+- `style.css` — cores, layout, animações e adaptação para dispositivos móveis.
+- `script.js` — JavaScript que controla abrir e fechar o menu.
+- `img/` — imagens usadas no site.
 
-- `index.html` — conteúdo e estrutura da página
-- `style.css` — estilos responsivos e identidade visual
-- `script.js` — comportamento do menu lateral
-- `img/` — imagens ilustrativas usadas na demonstração
+O CSS e o JavaScript ficam em arquivos separados do HTML; não há dependências ou instalação necessária.
 
 ## Publicação
 
-O site é estático e pode ser hospedado em serviços de páginas estáticas, como GitHub Pages. Antes de usar este projeto como referência para uma empresa real, substitua todo o conteúdo fictício por informações verificadas e obtenha as autorizações necessárias para os materiais utilizados.
+O site é publicado pelo GitHub Pages a partir da branch `main`.
